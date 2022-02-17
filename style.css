@@ -20,6 +20,7 @@ body{
     flex-direction: column;
     justify-content: space-between;
     min-height: 80vh;
+    max-width: 300px;
 }
 /* typography */
 h1{
@@ -167,5 +168,6 @@ input:focus{
       }
       .column1{
           height: 100%;
+          max-width: 475px;
       }
   }

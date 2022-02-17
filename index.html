@@ -42,7 +42,7 @@
         let emailCollector = document.getElementById("email-collector")
         emailCollector.addEventListener("submit", event => {
             event.preventDefault()
-            let ourFormData = new FormData(event.target)
+           let ourFormData = new FormData(event.target)
             let name = ourFormData.get("name")
             let email = ourFormData.get("email")
             let updatedHtmlContent = `
